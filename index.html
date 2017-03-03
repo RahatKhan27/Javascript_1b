@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Assignment 1</title>
+</head>
+<body>
+<h1>Start</h1>
+<input type="input" name="start" placeholder="Starting" id="start">
+<h1>End</h1>
+<input type="input" name="end" placeholder="Ending" id="end">
+
+<button onclick="calculate()">Cacluate</button>
+
+<h1 id="output"></h1>
+<script type="text/javascript">
+var start=document.getElementById('start');
+var end=document.getElementById('end');
+	function calculate(){
+
+	for(var i=Number(start.value); i<=Number(end.value);i++)
+	{
+	
+	if(i%2==0) output.innerHTML=output.innerHTML+" "+i;
+	
+	}
+	}
+</script>
+</body>
+</html>
